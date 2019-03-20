@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="Theme.MainActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/blue</item>
+        <item name="android:colorBackground">@color/blue</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowEnterTransition">@transition/fade</item>
+        <item name="android:windowExitTransition">@transition/fade</item>
+    </style>
+</resources>
